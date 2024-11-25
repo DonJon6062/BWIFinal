@@ -1,0 +1,180 @@
+body
+{
+    border-left: 100;
+    background-color: #ffdac4;
+    font-family: 'Courier New', Courier, monospace;
+}
+header
+{
+    /* border stuff */
+    background-color: #000000; 
+    /* padding: 5px; */
+    border-radius: 5px;
+    border: 5px dotted #ffffff;
+    /* font stuff */
+    color: #ffee00;
+    /* font-size: larger; */
+    text-align: center;
+    font-weight: 100;
+    /* animation! */
+    animation: wiggle 2s infinite;
+}
+h2
+{
+    /* border stuff */
+    background-color: #000000; 
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px dotted #ffffff;
+    /* font stuff */
+    color: #ffee00;
+    font-size: larger;
+    text-align: center;
+    font-weight: 200;
+}
+h3
+{
+color: #ffee00;
+}
+p
+{
+    /* font */
+    color: #f8d092;
+    /* border */
+    background-color: #000000;
+    border-radius: 5px;
+}
+a
+{
+    /* font */
+    color: #ffee00;
+    /* button roundness */
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #000000;
+    font-weight: bold;
+}
+form
+{
+    max-width: 500px;
+    margin: 10px auto;   
+}
+input
+{
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+    margin: 10px;
+}
+label
+{
+    display: block;
+}
+/* classes */
+.Lsidebar 
+{
+    /* make a sidebar */
+    width: 200px;
+    height:max-content;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    /* font stuff */
+    color: #ffee00;
+    font-weight: 50;
+    font-size: large;
+    /* border stuff */
+    background-color: #000000;
+    border: 5px dotted #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.Rsidebar
+{
+    /* make a sidebar */
+    width: 200px;
+    height:max-content;
+    display: flex;
+    box-sizing: border-box;
+    align-self: initial;
+    flex-direction: column;
+    justify-content: space-between;
+    /* font stuff */
+    font-weight: 50;
+    font-size: large;
+    /* border stuff */
+    background-color: #000000;
+    border: 5px dotted #ffffff;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.connection:hover
+{
+    background-color: #ffee00;
+    color: #000000;
+}
+.connection + .connection
+{
+    border-bottom: 50px;
+}
+.reviewSection
+{
+    /* font stuff */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: large;
+    font-weight: 50;
+    color: #f8d092;
+    /* border stuff */
+    background-color: #000000;
+    border: 5px dotted #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+@keyframes wobble
+{
+    0%
+    {
+        rotate: 45;
+    }
+    40%
+    {
+        transform: translateY(-5px);
+        transform: translateY(5px);
+    }
+     60%
+    {
+        transform: translateY(-5px);
+        transform: translateY(5px);
+    } 
+    80%
+    {
+        transform: translateY(-5px);
+        transform: translateY(5px);
+    }
+}
+@keyframes wiggle
+{
+    0%, 20%, 40%, 60%, 80%, 100%
+    {
+        transform: translateY(0);
+    }
+    40%
+    {
+        transform: translateY(-5px);
+        transform: translateY(5px);
+    }
+     60%
+    {
+        transform: translateY(-5px);
+        transform: translateY(5px);
+    } 
+    80%
+    {
+        transform: translateY(-5px);
+        transform: translateY(5px);
+    }
+}

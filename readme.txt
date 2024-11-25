@@ -1,0 +1,1 @@
+I attempted to align multiple items at the top, which did not work, however the appearance of all individual sections is as intended. Ideally, the Lsidebar would be on the left, the Rsidebar on the right, and the reviewSection between the two.
