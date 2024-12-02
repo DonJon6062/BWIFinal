@@ -1,1 +1,1 @@
-I attempted to align multiple items at the top, which did not work, however the appearance of all individual sections is as intended. Ideally, the Lsidebar would be on the left, the Rsidebar on the right, and the reviewSection between the two.
+Somehow, the sidebar stopped stretching to fit content, but everything else is what it ideally will look like in the end. The art for the games will be swapped out when the bulk of the work is behind me, all games listed a friend on campus owns and can take pictures of. The current inages are placeholders. Thank you for understanding.
