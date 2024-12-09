@@ -1,1 +1,1 @@
-Somehow, the sidebar stopped stretching to fit content, but everything else is what it ideally will look like in the end. The art for the games will be swapped out when the bulk of the work is behind me, all games listed a friend on campus owns and can take pictures of. The current inages are placeholders. Thank you for understanding.
+Sidebar has been fixed, images have been removed until uncopyrighted images are gotten.

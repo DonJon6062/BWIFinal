@@ -1,3 +1,7 @@
+main
+{
+    line-height: 2;
+}
 body
 {
     border-left: 100;
@@ -69,13 +73,11 @@ input
 .sidebar 
 {
     /* make a sidebar */
-    width: 200px;
-    /* height: fit-content; */
-    box-sizing: border-box;
+    width: 25%;
+    /* box-sizing: border-box; */
     /* font stuff */
     color: #ffee00;
     font-weight: 50;
-    /* font-size: large; */
     /* border stuff */
     background-color: #000000;
     border: 5px dotted #ffffff;
@@ -85,9 +87,10 @@ input
 .reviewSection
 {
     /* font stuff */
-    flex-grow: 1;
+    flex-grow: 0.75;
     /* font-size: large; */
     font-weight: 50;
+    word-break: break-all;
     color: #f8d092;
     /* border stuff */
     background-color: #000000;
@@ -146,7 +149,7 @@ input
     .reviewSection
     {
         /* font stuff */
-        flex-grow: 1;
+        flex-grow: 0.75;
         /* font-size: medium; */
         font-weight: 50;
         color: #f8d092;
@@ -159,8 +162,7 @@ input
     .sidebar 
     {
     /* make a sidebar */
-    width: 200px;
-    /* height: fit-content; */
+    flex-grow: 0.25;
     box-sizing: border-box;
     /* font stuff */
     color: #ffee00;
