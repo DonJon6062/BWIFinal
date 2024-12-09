@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="stylesheet.css">
+   <title>Request a Review!</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Request a Tabletop Game for us to review!
+        </h1>
+        <nav>
+            <p>
+                <a href="LandingPage.html">Browse Tabletop Game Reviews</a>
+            </p>
+        </nav>
+    </header>
+    <main>
+        <h2>
+        <!-- get just for test, insecure if any sensitive info gets attached, action is where this gets posted to -->
+        <form name = "form" id="form" method="post" action="#">
+            <!-- required prevents the user from submitting blanks -->
+            <label for="suggestion">Is there a tabletop game you want reviewed? Request it here!</label>
+            <textarea name="suggestion" id="suggestion" rows="10" cols="50" placeholder="Write Here!" required></textarea>
+            <!-- reset button, clear contents of form -->
+            <input type="reset" value="Reset Form">
+            <!-- submit, gives info to database -->
+            <input type="submit" value="Submit Form">
+        </form>
+    </h2>
+    </main>
+</body>
+</html>
