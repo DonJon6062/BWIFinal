@@ -1,10 +1,8 @@
 body
 {
     line-height: 2;
-    /* word-break: keep-all; */
-    /* white-space: break-spaces; */
-    /* white-space: nowrap;
-    overflow-wrap: break-word; */
+    text-align: start;
+    overflow-wrap: break-word;
     border-left: 100;
     background-color: #ffdac4;
     font-family: 'Courier New', Courier, monospace;
@@ -74,7 +72,7 @@ input
 .sidebar 
 {
     /* make a sidebar */
-    width: 25%;
+    width: 30%;
     /* font stuff */
     color: #ffee00;
     font-weight: 50;
@@ -82,12 +80,12 @@ input
     background-color: #000000;
     border: 5px dotted #ffffff;
     border-radius: 5px;
-    padding: 10px;
+    /* padding: 5px; */
 }
 .reviewSection
 {
     /* font stuff */
-    flex-grow: 0.75;
+    flex-grow: 0.70;
     font-weight: 50;
     word-break: break-all;
     color: #f8d092;
@@ -154,7 +152,7 @@ input
         background-color: #000000;
         border: 5px dotted #ffffff;
         border-radius: 5px;
-        padding: 10px;
+        /* padding: 10px; */
     }
     .sidebar 
     {

@@ -1,1 +1,1 @@
-Sidebar has been fixed, images have been removed until uncopyrighted images are gotten. 
+Images further postponed until my friend provides them; turned to Wikimedia for free to use images. Filter functionality added. My apologies for the pages lacking the preferred amount of images. 

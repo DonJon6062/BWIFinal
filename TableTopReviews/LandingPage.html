@@ -3,8 +3,21 @@
    <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- meta tags -->
+    <!-- description -->
+    <meta name="description" content="Website reviewing tabletop games.">
+    <!--keywords-->
+    <meta name = "keywords" content=" tabletop games, board games, review">
+    <!-- when to come back -->
+    <meta name="revisit-after" content ="7 days">
+    <!-- webpage language -->
+    <meta name = "language" content="English">
+    <!-- type of content -->
+    <meta property ="og:type" content="article">
+ 
    <title>Tabletop Game Reviews</title>
    <link rel="stylesheet" href="stylesheet.css">
+   <script src="searchFunctionality.js"></script>
 </head>
 <body>
 <header class="banner">
@@ -22,9 +35,13 @@
     <div class="flex-container">
         <nav class="sidebar">
             <p>
-                <a href=" " class="connection">Filter By</a>
-                <br><br>
-                <a href=" " class="connection">Jump to a Review</a>
+                <input type="text" id="userInput" onkeyup="searchFunction()" placeholder="Search by Title or Genre">
+                <ul id="searchBar">
+                <li><a href="CaptainsGambit.html">Captains Gambit: Kings of Infinite Space || Strategy, Hidden Role, Bluffing</a><br></li>
+                <li><a href="CardsAgainstHumanity.html">Cards Against Humanity || Casual, Comedy, Party</a><br></li>
+                <li><a href="ExplodingKittens.html">Exploding Kittens || Family, Strategy</a><br></li>
+                <li><a href="RedFlags.html">Red Flags || Casual, Party</a><br></li>
+                </ul> 
             </p>
         </nav>
         <article class="reviewSection">
@@ -35,23 +52,24 @@
                 <!-- all games will eventually get a link leading to an overview, this is simply the main page -->
                  <a href="CaptainsGambit.html">Captain's Gambit: Kings of Infinite Space</a><br>Strategy, Hidden Role, Bluffing
             </p>  
-            <img src="" alt="Captain's Gambit box cover, from left to right a cream and tan, floppy-eared rabbit with a crown on its head, a green, plant-like creature with roots sprawling from its head and hands, " width="300" height="200">     
+            <img src="" alt="Captain's Gambit box cover, from left to right: A bipedal, cream and tan, floppy-eared rabbit with a crown on its head. A green, plant-like creature with roots sprawling from its head and hands. A light-grey robot with a cloak covering its body, one hand raised, a ball of energy within. A mouthless, hot pink and white, snake-like alien with a rifle. A skeletal being, peering over its shoulder, eyes narrowed. Behind them all, obscured in darkness, is a demonic, pink, worm-like creature with angry eyes and a jagged mouth, agape." width="300" height="200">     
             <p>
-               <a href="CardsAgainstHumanity.html">Cards Against Humanity</a><br>Genre Details..
+               <a href="CardsAgainstHumanity.html">Cards Against Humanity</a><br>Casual, Comedy, Party
             </p>
-            <img src="" alt="Cards Against Humanity cover, the title in white, bold text on a black background." width="200" height="200">
+            <img src="Cards_Against_Humanity_logo_2009.svg.png" alt="Cards Against Humanity cover, the title in white, bold text on a black background." width="200" height="200"><br>
+            <a href="https://commons.wikimedia.org/wiki/File:Cards_Against_Humanity_logo_2009.svg">Credit: Wikimedia Commons</a> 
             <h3>
                 E
             </h3>
             <p>
-                <a href="ExplodingKittens.html">Exploding Kittens</a><br>Genre Details..
+                <a href="ExplodingKittens.html">Exploding Kittens</a><br>Family, Strategy
             </p>
             <img src="" alt="Exploding Kittens cover, with the name in large font. The 'Exploding' in exploding kittens is in orange text that appears to be on fire. Underneath the title, the cover reads, 'a card game for people who are into kittens and explosions and laser beams and sometimes goats.' Beside the block of text is a simplified drawing black cat with a scowl and fire in its eyes holding a grenade." width="300" height="200">
             <h3>
                 R
             </h3>
             <p>
-               <a href="RedFlags.html">Red Flags</a><br>Genre Details..
+               <a href="RedFlags.html">Red Flags</a><br>Casual, Party
             </p>
             <img src="" alt="Red Flags cover, the title in white text on a scarlet background, with a white flag beside it. The white flag has a scarlet, cracked heart in its center." width="300" height="200">
         </article>
