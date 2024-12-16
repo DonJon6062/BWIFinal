@@ -1,9 +1,10 @@
-main
-{
-    line-height: 2;
-}
 body
 {
+    line-height: 2;
+    /* word-break: keep-all; */
+    /* white-space: break-spaces; */
+    /* white-space: nowrap;
+    overflow-wrap: break-word; */
     border-left: 100;
     background-color: #ffdac4;
     font-family: 'Courier New', Courier, monospace;
@@ -74,7 +75,6 @@ input
 {
     /* make a sidebar */
     width: 25%;
-    /* box-sizing: border-box; */
     /* font stuff */
     color: #ffee00;
     font-weight: 50;
@@ -88,7 +88,6 @@ input
 {
     /* font stuff */
     flex-grow: 0.75;
-    /* font-size: large; */
     font-weight: 50;
     word-break: break-all;
     color: #f8d092;
@@ -108,7 +107,6 @@ input
 {
     /* the wiggle is only on the landing page */
     /* animation! */
-    /* margin-bottom: 10px; */
     animation: wiggle 2s infinite;
 }
 .connection:hover
@@ -150,7 +148,6 @@ input
     {
         /* font stuff */
         flex-grow: 0.75;
-        /* font-size: medium; */
         font-weight: 50;
         color: #f8d092;
         /* border stuff */
@@ -167,7 +164,6 @@ input
     /* font stuff */
     color: #ffee00;
     font-weight: 50;
-    /* font-size: medium; */
     /* border stuff */
     background-color: #000000;
     border: 5px dotted #ffffff;
